@@ -6,9 +6,9 @@
       <p>
         <span class="text-yellow-400 tracking-wide"> Halo, my name is</span>
       </p>
-      <div class="py-5 text-5xl">
-        <h1 class="">Tommy Alhamra.</h1>
-        <h1 class="">I like to make something.</h1>
+      <div class="py-5 text-5xl font-bold">
+        <h1 class="text-light">Tommy Alhamra.</h1>
+        <h1>I like to make something.</h1>
       </div>
       <p class="tracking-wide max-w-screen-sm">
         I'm a front-end developer specializing in building (and designing) great
@@ -38,7 +38,12 @@
 
 <script>
 export default {
-  name: "Header"
+  name: "Header",
+  data() {
+    return {
+      //   key: value
+    };
+  }
 };
 </script>
 
