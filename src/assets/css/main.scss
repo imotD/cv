@@ -1,0 +1,23 @@
+@import "colors";
+@import "fonts";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: $font-main;
+}
+
+.app {
+    background-color: $blue-dark1;
+    color: $grey-dark1;
+}
+
+.header {
+    height: 100vh;
+}
+
+.btn {
+    color: red;
+}
