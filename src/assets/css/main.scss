@@ -2,22 +2,35 @@
 @import "fonts";
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: $font-main;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: $font-main;
 }
 
 .text-light {
-    color: $grey-dark2;
+  color: $grey-dark2;
 }
 
 .app {
-    background-color: $blue-dark1;
-    color: $grey-dark1;
+  background-color: $blue-dark1;
+  color: $grey-dark1;
 }
 
 .header {
-    height: 100vh;
+  height: 100vh;
+}
+
+.sosmed {
+  &--left {
+    left: 2.5rem;
+    position: fixed;
+    bottom: 0;
+  }
+  &--right {
+    right: 2.5rem;
+    position: fixed;
+    bottom: 0;
+  }
 }

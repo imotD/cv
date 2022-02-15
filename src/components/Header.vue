@@ -1,6 +1,15 @@
 <template>
   <div
-    class="header container mx-auto px-36 flex justify-center items-center grid grid-cols-1"
+    class="
+      header
+      container
+      mx-auto
+      px-36
+      flex
+      justify-center
+      items-center
+      grid grid-cols-1
+    "
   >
     <div class="">
       <p>
@@ -8,7 +17,7 @@
       </p>
       <div class="py-5 text-5xl font-bold">
         <h1 class="text-light">Tommy Alhamra.</h1>
-        <h1>I like to make something.</h1>
+        <h1>{{ slogan }}</h1>
       </div>
       <p class="tracking-wide max-w-screen-sm">
         I'm a front-end developer specializing in building (and designing) great
@@ -20,9 +29,17 @@
         am looking forward to collaborate with you!
       </p>
       <br />
-      <a href="mailto:tommy.alhamra@gmail.com">
+      <a :href="email" class="transition hover:ease-in duration-300">
         <button
-          class="flex items-center p-2 border-yellow-400 border rounded tracking-wide"
+          class="
+            hover:bg-yellow-700 hover:text-white
+            flex
+            items-center
+            p-2
+            border-yellow-400 border
+            rounded
+            tracking-wide
+          "
         >
           <span
             class="iconify mr-1"
@@ -41,9 +58,10 @@ export default {
   name: "Header",
   data() {
     return {
-      //   key: value
+      slogan: "I like to make something.",
+      email: "mailto:tommy.alhamra@gmail.com  ",
     };
-  }
+  },
 };
 </script>
 

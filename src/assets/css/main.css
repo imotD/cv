@@ -20,4 +20,16 @@
 .header {
   height: 100vh;
 }
+
+.sosmed--left {
+  left: 2.5rem;
+  position: fixed;
+  bottom: 0;
+}
+
+.sosmed--right {
+  right: 2.5rem;
+  position: fixed;
+  bottom: 0;
+}
 /*# sourceMappingURL=main.css.map */
