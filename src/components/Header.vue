@@ -13,7 +13,7 @@
   >
     <div class="">
       <p>
-        <span class="text-yellow-400 tracking-wide"> Halo, my name is</span>
+        <span class="text-yellow-300 tracking-wide"> Halo, my name is</span>
       </p>
       <div class="py-5 text-5xl font-bold">
         <h1 class="text-light">Tommy Alhamra.</h1>
@@ -36,9 +36,10 @@
             flex
             items-center
             p-2
-            border-yellow-400 border
+            border-yellow-300 border
             rounded
             tracking-wide
+            font-robot
           "
         >
           <span

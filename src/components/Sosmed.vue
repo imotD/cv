@@ -17,7 +17,7 @@
         </a>
       </div>
     </div>
-    <div class="text-center text-xs py-4 tracking-wide">
+    <div class="text-center text-xs py-4 tracking-wide font-robot">
       Made with Hope <br />
       © 2022 - by imotD
     </div>

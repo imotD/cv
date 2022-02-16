@@ -1,4 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&family=Tourney:wght@100;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&family=Sniglet:wght@400;800&display=swap");
+@media (max-width: 768px) {
+  .app {
+    display: none !important;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -6,6 +12,10 @@
           box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Rubik", sans-serif;
+}
+
+.font-robot {
+  font-family: "Sniglet", cursive !important;
 }
 
 .text-light {
