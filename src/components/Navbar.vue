@@ -9,8 +9,9 @@
       <span class="px-3 py-2">Work</span>
       <span class="px-3 py-2">Contact</span>
       <a
-        href="../assets/pdf/CV_Tommy_Alhamra.pdf"
+        href="../../pdf/CV_Tommy_Alhamra.pdf"
         download="CV_Tommy_Alhamra.pdf"
+        target="_blank"
       >
         <button class="px-3 py-2 border border-yellow-300 rounded">
           Resume
