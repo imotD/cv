@@ -52,7 +52,15 @@
           download="CV_Tommy_Alhamra.pdf"
           target="_blank"
         >
-          <button class="px-3 py-2 border border-yellow-300 rounded">
+          <button
+            class="
+              px-3
+              py-2
+              border border-yellow-300
+              rounded
+              hover:bg-yellow-700 hover:text-white
+            "
+          >
             Resume
           </button>
         </a>

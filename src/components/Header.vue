@@ -4,7 +4,8 @@
       header
       container
       mx-auto
-      px-36
+      md:px-36
+      px-6
       flex
       justify-center
       items-center
