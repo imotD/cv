@@ -1,47 +1,26 @@
 <template>
   <div
-    class="
-      header
-      container
-      mx-auto
-      md:px-36
-      px-6
-      flex
-      justify-center
-      items-center
-      grid grid-cols-1
-    "
+    class="header container mx-auto md:px-36 px-6 flex justify-center items-center grid grid-cols-1"
   >
     <div class="">
       <p>
-        <span class="text-yellow-300 tracking-wide"> Halo, my name is</span>
+        <span class="text-yellow-300 tracking-wide">Halo, my name is</span>
       </p>
       <div class="py-5 text-5xl font-bold">
         <h1 class="text-light">Tommy Alhamra.</h1>
         <h1>{{ slogan }}</h1>
       </div>
       <p class="tracking-wide max-w-screen-sm">
-        I'm a front-end developer specializing in building (and designing) great
-        digital experiences. I’ve worked for a
-        <span title="PT Weyland Indonesia Perkasa" class="underline">
-          PT. WIP
-        </span>
-        as a web designer and front-end developer for 3 years, and right now I
-        am looking forward to collaborate with you!
+        As a Frontend Developer, I have been a professional in the industry for
+        3+ years in startup companies. Throughout my journey I have developed
+        skills in HTML5, CSS3/SCSS, Vue.js, Vuex, React,Javascript. It is my
+        passion to create web projects. I hope I can help you with what you
+        need!
       </p>
       <br />
       <a :href="email" class="transition hover:ease-in duration-300">
         <button
-          class="
-            hover:bg-yellow-700 hover:text-white
-            flex
-            items-center
-            p-2
-            border-yellow-300 border
-            rounded
-            tracking-wide
-            font-robot
-          "
+          class="hover:bg-yellow-700 hover:text-white flex items-center p-2 border-yellow-300 border rounded tracking-wide font-robot"
         >
           <span
             class="iconify mr-1"
@@ -57,11 +36,11 @@
 
 <script>
 export default {
-  name: "Header",
+  name: 'Header',
   data() {
     return {
-      slogan: "I like to make something.",
-      email: "mailto:tommy.alhamra@gmail.com  ",
+      slogan: 'I like to make something.',
+      email: 'mailto:tommy.alhamra@gmail.com  ',
     };
   },
 };
