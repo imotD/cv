@@ -2,8 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Rubik", sans-serif;
 }
@@ -26,14 +25,12 @@
 }
 
 .sosmed--left {
-  left: 2.5rem;
+  left: 1.5rem;
   position: fixed;
   bottom: 0;
 }
-
 .sosmed--right {
   right: 2.5rem;
   position: fixed;
   bottom: 0;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

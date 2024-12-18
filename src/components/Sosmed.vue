@@ -1,6 +1,6 @@
 <template>
   <div class="sosmed">
-    <div class="sosmed--left mb-5 hidden md:block">
+    <div class="sosmed--left mb-5 hidden md:block justify-center">
       <div v-for="(icon, i) in icons" :key="i" class="mb-5">
         <a
           :href="icon.link"
@@ -18,7 +18,7 @@
       </div>
     </div>
     <div>
-      <div class="flex justify-center block md:hidden">
+      <div class="flex justify-center md:hidden">
         <a
           v-for="(icon, i) in icons"
           :key="i"
