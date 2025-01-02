@@ -34,8 +34,7 @@
           Contact
         </a>
         <a
-          href="https://drive.google.com/file/d/1JxtuPZ5o8PqpVAMvcJbn-TdT0OK5nsHS/view?usp=sharing"
-          download="CV_Tommy_Alhamra.pdf"
+          href="https://drive.google.com/file/d/1K2bN7eHiUoN7PleORrVAAu2tDTb7kXGi/view?usp=sharing"
           target="_blank"
         >
           <button
