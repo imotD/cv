@@ -4,7 +4,7 @@
   >
     <div class="flex justify-between items-center">
       <div>
-        <img width="40" src="../assets/logo.png" alt="" />
+        <img width="40" src="../assets/logo.png" alt="logo" />
       </div>
 
       <button
@@ -26,13 +26,8 @@
         <a href="#" class="px-3 py-2 block md:inline-block cursor-help">
           About
         </a>
-        <a href="#" class="px-3 py-2 block md:inline-block cursor-help">
-          Experience
-        </a>
-        <a href="#" class="px-3 py-2 block md:inline-block cursor-help">Work</a>
-        <a href="#" class="px-3 py-2 block md:inline-block cursor-help">
-          Contact
-        </a>
+        <a href="#" class="px-3 py-2 block md:inline-block cursor-help">Works</a>
+
         <a
           href="https://drive.google.com/file/d/1K2bN7eHiUoN7PleORrVAAu2tDTb7kXGi/view?usp=sharing"
           target="_blank"

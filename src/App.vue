@@ -2,6 +2,7 @@
   <div class="app">
     <Navbar />
     <Header />
+    <Footer />
     <Sosmed />
   </div>
 </template>
@@ -10,6 +11,7 @@
 import Header from "./components/Header.vue";
 import Navbar from "./components/Navbar.vue";
 import Sosmed from "./components/Sosmed.vue";
+import Footer from "./components/Footer.vue"
 
 export default {
   name: "App",
@@ -17,6 +19,7 @@ export default {
     Header,
     Sosmed,
     Navbar,
+    Footer
   },
 };
 </script>

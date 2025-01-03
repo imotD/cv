@@ -10,13 +10,11 @@
         <h1 class="text-light">Tommy Alhamra.</h1>
         <h1>{{ slogan }}</h1>
       </div>
+      
       <p class="tracking-wide max-w-screen-sm">
-        As a Frontend Developer, I have been a professional in the industry for
-        3+ years in startup companies. Throughout my journey I have developed
-        skills in HTML5, CSS3/SCSS, Vue.js, Vuex, React,Javascript. It is my
-        passion to create web projects. I hope I can help you with what you
-        need!
+        As a Frontend Developer with over 3 years of experience in startup environments, I have honed my expertise in HTML5, CSS3/SCSS, Vue.js (including Vuex), React.js, and JavaScript. 
       </p>
+      
       <br />
       <a :href="email" class="transition hover:ease-in duration-300">
         <button
@@ -40,7 +38,7 @@ export default {
   data() {
     return {
       slogan: 'I like to make something.',
-      email: 'mailto:tommy.alhamra@gmail.com  ',
+      email: 'mailto:tommy.alhamra@gmail.com',
     };
   },
 };

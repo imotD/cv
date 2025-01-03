@@ -17,6 +17,7 @@
         </a>
       </div>
     </div>
+
     <div>
       <div class="flex justify-center md:hidden">
         <a
@@ -35,6 +36,7 @@
           </button>
         </a>
       </div>
+
       <div class="text-center text-xs py-4 tracking-wide font-robot">
         Made with Hope <br />
         © 2022 - by imotD
@@ -44,6 +46,7 @@
 </template>
 
 <script>
+
 export default {
   name: "Sosmed",
   data() {
@@ -58,15 +61,16 @@ export default {
           link: "https://www.linkedin.com/in/tommy-alhamra/",
         },
         {
-          icon: "notebook-outline",
+          icon: "book-open-variant",
           link: "https://tommyalhamra.medium.com/",
         },
         {
           icon: "web",
-          link: "https://dottomuniverse.tech/",
+          link: "https://dottomuniverse.netlify.app/",
         },
       ],
     };
   },
+
 };
 </script>
