@@ -1,6 +1,6 @@
 <template>
   <div
-    class="header container mx-auto md:px-36 px-6 flex justify-center items-center grid grid-cols-1"
+    class="header container mx-auto px-6 flex justify-center items-center grid grid-cols-1"
   >
     <div class="">
       <p>

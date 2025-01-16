@@ -2,24 +2,30 @@
   <div class="app">
     <Navbar />
     <Header />
+    <Projects />
+    <Skill />
     <Footer />
     <Sosmed />
   </div>
 </template>
 
 <script>
-import Header from "./components/Header.vue";
-import Navbar from "./components/Navbar.vue";
-import Sosmed from "./components/Sosmed.vue";
-import Footer from "./components/Footer.vue"
+import Navbar from './components/Navbar.vue';
+import Header from './components/Header.vue';
+import Projects from './components/Projects.vue';
+import Sosmed from './components/Sosmed.vue';
+import Footer from './components/Footer.vue';
+import Skill from './components/Skill.vue';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     Header,
     Sosmed,
     Navbar,
-    Footer
+    Footer,
+    Projects,
+    Skill,
   },
 };
 </script>
