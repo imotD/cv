@@ -24,9 +24,12 @@
         class="bg-gray-900 md:bg-transparent text-sm flex flex-col md:flex-row pt-4 mt-2 md:mt-0 md:pt-0 border-t border-gray-700 md:border-t-0"
       >
         <a href="#" class="px-3 py-2 block md:inline-block cursor-help">
-          About
+          Experience
         </a>
-        <a href="#" class="px-3 py-2 block md:inline-block cursor-help">Works</a>
+
+        <a href="#" class="px-3 py-2 block md:inline-block cursor-help">
+          Projects
+        </a>
 
         <a
           href="https://drive.google.com/file/d/1K2bN7eHiUoN7PleORrVAAu2tDTb7kXGi/view?usp=sharing"

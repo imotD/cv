@@ -1,6 +1,6 @@
 <template>
   <div
-    class="header container mx-auto px-6 flex justify-center items-center grid grid-cols-1"
+    class="section container mx-auto px-6 flex justify-center items-center grid grid-cols-1"
   >
     <div class="">
       <p>
@@ -10,11 +10,13 @@
         <h1 class="text-light">Tommy Alhamra.</h1>
         <h1>{{ slogan }}</h1>
       </div>
-      
+
       <p class="tracking-wide max-w-screen-sm">
-        As a Frontend Developer with over 3 years of experience in startup environments, I have honed my expertise in HTML5, CSS3/SCSS, Vue.js (including Vuex), React.js, and JavaScript. 
+        As a Frontend Developer with over 3 years of experience in startup
+        environments, I have honed my expertise in HTML5, CSS3/SCSS, Vue.js
+        (including Vuex), React.js, and JavaScript.
       </p>
-      
+
       <br />
       <a :href="email" class="transition hover:ease-in duration-300">
         <button

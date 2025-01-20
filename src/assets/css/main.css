@@ -20,8 +20,12 @@
   color: #9ea7c6;
 }
 
-.header {
-  height: 100vh;
+.section {
+  min-height: 100vh;
+}
+
+.img-project {
+  position: relative;
 }
 
 .sosmed--left {
